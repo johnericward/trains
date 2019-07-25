@@ -1,0 +1,18 @@
+.bannerHead {
+    background-color: rgb(233, 183, 183);
+}
+
+.titleText {
+    text-align: center;
+    color: rgb(160, 46, 46);
+    
+}
+
+.subtitleText {
+    text-align: center;
+    color: rgb(68, 15, 15);
+}
+
+.timeBlock {
+    text-align: center;
+}
