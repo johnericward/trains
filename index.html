@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GIF-tastic!</title>
-    
+    <title>Train Time</title>
+
     <!-- bootstrap linked css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,10 +23,53 @@
                 </div>
             </div>
         </div>
+        <!--MESSAGE ROW-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="messageRow"> Sorry, I'll have to resubmit later :/ </div>
+                <br>
+            </div>
+        </div>
+        <!--RESULTS ROW-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        Current Train Schedule
+                    </div>
+                    <div class="card-body">
+                        <div class="resultsDiv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
         <!--SCHEDULING ROW-->
         <div class="row">
             <div class="col-lg-12">
-                <div class="timeBlock"> YO! </div>
+                <div class="timeBlock">
+                    <div class="card">
+                        <div class="card-header">
+                            Add A Train
+                        </div>
+                        <div class="card-body">
+                            <input class="form-control" type="text" placeholder="Default input">
+                            <br>
+                            <h6>Destination</h6>
+                            <input class="form-control" type="text" placeholder="Default input">
+                            <br>
+                            <h6>First Train Time (HH:MM)(military time)</h6>
+                            <input class="form-control" type="text" placeholder="Default input">
+                            <br>
+                            <h6>Frequency (min)</h6>
+                            <input class="form-control" type="text" placeholder="Default input">
+                            <br>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
